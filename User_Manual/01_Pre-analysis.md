@@ -36,7 +36,7 @@ This function is designed to convert raw ONT sequencing data from **FAST5** form
 
 - **Converted SLOW5/BLOW5 file(s)** for downstream analysis.
 
-![iShot_2026-04-09_20.39.48](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_20.39.48.png)
+![iShot_2026-04-09_20.39.48](./img/iShot_2026-04-09_20.39.48.png)
 
 ## Basecalling
 
@@ -56,7 +56,7 @@ This function is designed to convert raw nanopore electrical signals into nucleo
 
 - **Basecalled reads in FASTQ format**
 
-![iShot_2026-04-09_20.58.54](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_20.58.54.png)
+![iShot_2026-04-09_20.58.54](./img/iShot_2026-04-09_20.58.54.png)
 
 ## Quality Control Module
 
@@ -92,4 +92,4 @@ This function is designed to filter Oxford Nanopore sequencing reads in **FASTQ*
 - The filtering process is controlled by user-defined thresholds for quality and read length.
 - When enabled, **NanoPlot** provides graphical summaries that help users evaluate the quality of the filtered reads.
 
-![iShot_2026-04-09_21.09.29](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_21.09.29.png)
+![iShot_2026-04-09_21.09.29](./img/iShot_2026-04-09_21.09.29.png)
