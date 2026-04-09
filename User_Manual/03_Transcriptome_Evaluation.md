@@ -40,7 +40,7 @@ This function is designed to prepare transcript FASTA files for simulation-based
 
 - **modified.fa:** A modified transcript FASTA file for simulation benchmarking. 
 
-![iShot_2026-04-09_22.17.09](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_22.17.09.png)
+![iShot_2026-04-09_22.17.09](./img/iShot_2026-04-09_22.17.09.png)
 
 ## Step2: Modify simulated reference GTF
 
@@ -54,7 +54,7 @@ This function is designed to prepare reference annotation files for simulation-b
 
 - **modified.gtf:** A modified GTF file for simulation benchmarking. 
 
-![iShot_2026-04-09_22.17.09](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_22.17.09.png)
+![iShot_2026-04-09_22.17.09](./img/iShot_2026-04-09_22.17.09.png)
 
 ## Step3: Simulate ONT Reads
 
@@ -81,7 +81,7 @@ This function is designed to simulate ONT transcriptome reads using **NanoSim**.
 
 - **simulated_subsets.tar.gz:** A compressed archive containing the simulation working directory and subset FASTQ files. 
 
-![iShot_2026-04-09_22.17.09](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_22.17.09.png)
+![iShot_2026-04-09_22.17.09](./img/iShot_2026-04-09_22.17.09.png)
 
 ## Step4: Evaluate Simulated Assemblies
 
@@ -113,7 +113,7 @@ This function is designed to generate visual summaries of benchmarking results f
 
 - **plots.tar.gz:** A compressed archive containing the generated benchmarking plots. 
 
-![iShot_2026-04-09_22.17.09](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_22.17.09.png)
+![iShot_2026-04-09_22.17.09](./img/iShot_2026-04-09_22.17.09.png)
 
 ## Performance Assessment
 
@@ -137,7 +137,7 @@ This function is designed to assess transcriptome completeness using **BUSCO**. 
 - **full_table.tsv:** A tabular file containing detailed BUSCO results. 
 - **BUSCO_out.tar.gz:** A compressed archive containing the full BUSCO output directory. 
 
-![iShot_2026-04-09_22.17.09](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_22.17.09.png)
+![iShot_2026-04-09_22.17.09](./img/iShot_2026-04-09_22.17.09.png)
 
 ## Step2: rnaQUAST Evaluation
 
@@ -158,7 +158,7 @@ This function is designed to evaluate transcriptome assemblies using **rnaQUAST*
 
 - **rnaQUAST.tar.gz:** A compressed archive containing the full rnaQUAST evaluation results. 
 
-![iShot_2026-04-09_22.17.09](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_22.17.09.png)
+![iShot_2026-04-09_22.17.09](./img/iShot_2026-04-09_22.17.09.png)
 
 ## Step3: Bambu Quantification and TPM
 
@@ -177,4 +177,4 @@ This function is designed to run **bambu**, compute transcript TPM values, and e
 - **TPM_debug_table.tsv:** A tabular file containing TPM debugging information. 
 - **bambu_out.tar.gz:** A compressed archive containing the full bambu output directory. 
 
-![iShot_2026-04-09_22.21.34](/Users/smg-mini/Desktop/User Manual/img/iShot_2026-04-09_22.21.34.png)
+![iShot_2026-04-09_22.21.34](./img/iShot_2026-04-09_22.21.34.png)
