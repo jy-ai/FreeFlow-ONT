@@ -1,4 +1,4 @@
-## FreeFlow-ONT:: a Galaxy-based, end-to-end platform for reference genome-free m<sup>6</sup>A analysis from ONT direct RNA sequencing
+## FreeFlow-ONT: a Galaxy-based, end-to-end platform for reference genome-free m<sup>6</sup>A analysis from ONT direct RNA sequencing
 
 <a href="https://hub.docker.com/r/malab/mlpea" target="_blank"><img src="https://img.shields.io/badge/Docker_image-ready-red.svg" target="_blank"></a><a href="https://hub.docker.com/r/malab/mlpea" target="_blank"><img src="https://img.shields.io/docker/pulls/malab/mlpea"></a><a href="https://github.com/cma2015/mlPEA" target="_blank"><img src="https://img.shields.io/badge/Source%20codes-support-blue"></a>
 
@@ -9,7 +9,7 @@
 
 ## How to use FreeFlow-ONT
 - Test data and tutorial of FreeFlow-ONT are presented at [https://github.com/jy-ai/FreeFlow-ONT/tree/main/User_Manual](https://github.com/jy-ai/FreeFlow-ONT/blob/main/User_Manual/)
-- [The installation of FreeFlow-ONT](https://github.com/jy-ai/FreeFlow-ONT/blob/main/User_Manual/tutorial/00_Installation.md)
+- [The installation of FreeFlow-ONT](https://github.com/jy-ai/FreeFlow-ONT/blob/main/User_Manual/00_Installation.md)
 - [The Data Preparation and Quality Control Modules](https://github.com/jy-ai/FreeFlow-ONT/blob/main/User_Manual/01_Pre-analysis.md)
 - [The Transcriptome Construction Module](https://github.com/jy-ai/FreeFlow-ONT/blob/main/User_Manual//02_Transcriptome_Construction.md)
 - [The Transcriptome Evaluation Module](https://github.com/jy-ai/FreeFlow-ONT/blob/main/User_Manual/03_Transcriptome_Evaluation.md)
