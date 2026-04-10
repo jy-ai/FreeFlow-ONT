@@ -55,7 +55,7 @@
 
 ```
 # pull latest FreeFlow-ONT Docker image from docker hub
-$ docker pull malab/pangraphrna
+$ docker pull malab/freeflowont
 ```
 
 - **Step 3**: Launch FreeFlow-ONT local server
