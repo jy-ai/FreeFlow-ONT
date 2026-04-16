@@ -63,6 +63,8 @@ This function is designed to generate a consensus transcriptome from long-read a
 - Candidate filtering combines structural support from long reads with additional evidence from short reads and expression.
 - Representative transcripts are selected after MMseqs clustering using a weighted evidence score and optional long-read preference.
 
+![iShot_2026-04-16_22.34.13](./img/iShot_2026-04-16_22.34.13.png)
+
 ## Prediction System Construction
 
 This function is designed to construct a reference-free training dataset for RNA modification prediction and to train machine-learning models from ONT-derived features. It first prepares candidate modification sites from transcript sequences, m6Anet predictions, and peak regions, then filters and subsamples negative sites, extracts sequence, alignment/base-quality, and signal features, builds a training matrix, and finally trains CatBoost and baseline classifiers with additional group-aware cross-validation.
@@ -101,6 +103,8 @@ This function is designed to construct a reference-free training dataset for RNA
 - **metrics_summary.default_thr.tsv:** A tabular summary of model evaluation metrics at the default threshold.
 - **cv5.summary.tsv:** A tabular summary of 5-fold group-aware cross-validation results for multiple models.
 - **prediction_workdir.tar.gz:** A compressed archive containing the full working directory and intermediate files.
+
+![iShot_2026-04-16_22.34.25](./img/iShot_2026-04-16_22.34.25.png)
 
 #### Notes
 
