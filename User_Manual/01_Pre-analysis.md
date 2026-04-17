@@ -3,8 +3,7 @@
 <font size='100'>(version 1.0)</font>
 </div>
 
-
-- FreeFlow-ONT is a Galaxy-based framework for the analysis of Oxford Nanopore Technologies direct RNA sequencing (ONT DRS) data. It provides an integrated and user-friendly environment that supports key steps of ONT DRS analysis, including data preprocessing, alignment, transcript-level analysis, and downstream functional exploration. The framework is designed to improve accessibility, standardization, and efficiency in ONT DRS data analysis for both routine and advanced research applications.
+- FreeFlow-ONT is a user-friendly and modular platform designed for reference genome-free m^6^A analysis of Oxford Nanopore Technologies direct RNA sequencing (ONT DRS) data. It aims to support streamlined, end-to-end analysis under conditions where high-quality reference genomes or annotations are unavailable. By integrating long-read transcriptome assembly, m^6^A modification identification, differential modification analysis, and machine learning-based prediction into a unified Galaxy environment, FreeFlow-ONT enables reproducible and flexible analysis of plant m^6^A data from raw signals to biologically interpretable results. FreeFlow-ONT comprises eight functional modules:  **Data Preparation, Quality Control, Transcriptome Construction, Transcriptome Evaluation, RNA Modification Identification, Functional Annotation, Differential Modification Analysis, and Machine Learning-based Prediction**.
 - FreeFlow-ONT was powered with an advanced  packaging technology, which enables compatibility and portability.
 - FreeFlow-ONT project is hosted on https://github.com/jy-ai/FreeFlow-ONT
 - FreeFlow-ONT docker image is available at https://hub.docker.com/r/malab/freeflowont
@@ -13,10 +12,10 @@
 
 This module prepares raw Oxford Nanopore Technologies (ONT) sequencing data for downstream analysis. It includes two tools: **FAST5 to SLOW5 Conversion** and **Basecalling**. The first tool converts raw FAST5 files into SLOW5/BLOW5 format to improve data accessibility and computational efficiency, while the second tool translates raw electrical signals into nucleotide sequences in FASTQ format.
 
-| **Tools** | **Description** | **Input** | **Output** | **Time (test data)** | **Reference** |
-|-------------------------------|------------------------------------------------------------|-----------------------------------------------|-------------------------------------------------|----------------------------|------------------------------------------------------------|
-| **FAST5 to SLOW5** | Convert raw ONT FAST5 files into SLOW5/BLOW5 format for efficient downstream analysis | FAST5 files | SLOW5/BLOW5 files | Depends on the file size | <a href="https://hasindu2008.github.io/slow5tools/" target="_blank">slow5tools</a> |
-| **Basecalling** | Convert raw nanopore signal data into nucleotide sequences | FAST5 or SLOW5/BLOW5 files | FASTQ files | Depends on the dataset size and hardware configuration | ONT basecaller |
+| **Tools**          | **Description**                                                                 | **Input**            | **Output**  | **Time (test data)**                             | **Reference**                                                                        |
+| ------------------------ | ------------------------------------------------------------------------------------- | -------------------------- | ----------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| **FAST5 to SLOW5** | Convert raw ONT FAST5 files into SLOW5/BLOW5 format for efficient downstream analysis | FAST5 files                | SLOW5/BLOW5 files | Depends on the file size                               | `<a href="https://hasindu2008.github.io/slow5tools/" target="_blank">`slow5tools`</a>` |
+| **Basecalling**    | Convert raw nanopore signal data into nucleotide sequences                            | FAST5 or SLOW5/BLOW5 files | FASTQ files       | Depends on the dataset size and hardware configuration | ONT basecaller                                                                             |
 
 ## FAST5 to SLOW5
 
@@ -45,7 +44,7 @@ This function is designed to convert raw nanopore electrical signals into nucleo
 #### Input
 
 - **Input raw signal files:** FAST5 or SLOW5/BLOW5 files generated from ONT sequencing.
--  **Model file or model selection:** A basecalling model specified by the  selected from the available presets.
+- **Model file or model selection:** A basecalling model specified by the  selected from the available presets.
 
 #### Parameters
 
@@ -62,9 +61,9 @@ This function is designed to convert raw nanopore electrical signals into nucleo
 
 This module is designed to improve the quality of ONT sequencing reads before downstream analysis. It currently includes the **Chopper Quality Control** tool, which filters reads according to user-defined quality and length thresholds. An optional **NanoPlot** report can also be generated for visual quality assessment.
 
-| **Tools**                   | **Description**                                              | **Input**  | **Output**                                         | **Time (test data)**        | **Reference**                                                |
-| --------------------------- | ------------------------------------------------------------ | ---------- | -------------------------------------------------- | --------------------------- | ------------------------------------------------------------ |
-| **Chopper Quality Control** | Filter ONT reads by minimum quality and read length, with optional NanoPlot QC visualization | FASTQ file | Filtered FASTQ file; optional NanoPlot HTML report | Depends on the dataset size | <a href="https://github.com/wdecoster/chopper" target="_blank">Chopper</a>; <a href="https://github.com/wdecoster/NanoPlot" target="_blank">NanoPlot</a> |
+| **Tools**                   | **Description**                                                                        | **Input** | **Output**                                   | **Time (test data)**  | **Reference**                                                                                                                                                      |
+| --------------------------------- | -------------------------------------------------------------------------------------------- | --------------- | -------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Chopper Quality Control** | Filter ONT reads by minimum quality and read length, with optional NanoPlot QC visualization | FASTQ file      | Filtered FASTQ file; optional NanoPlot HTML report | Depends on the dataset size | `<a href="https://github.com/wdecoster/chopper" target="_blank">`Chopper`</a>`; `<a href="https://github.com/wdecoster/NanoPlot" target="_blank">`NanoPlot`</a>` |
 
 ## Chopper Quality Control
 
